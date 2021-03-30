@@ -16,7 +16,9 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "strictNullChecks": true,
+    "noImplicitReturns": true
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]
